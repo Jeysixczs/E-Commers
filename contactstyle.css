@@ -1,0 +1,199 @@
+body{
+    background-color: #432761;
+    margin: 0;
+    padding: 0;
+    zoom: 0.8;
+    
+}
+
+.container{
+    margin-top: 60px;
+    margin-left: 90px;
+    width: 1750px;
+    height: 800px;
+    margin-bottom: 60px;
+    background-color: #5D3482;
+    border-radius: 30px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; 
+     scrollbar-width: none; 
+     -ms-overflow-style: none;
+    
+
+
+}
+
+.navbar{
+    display: flex;
+    
+    border-radius: 30px 30px 0 0;
+    height: 120px;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.ecommerstitle{
+   
+   
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu{
+    
+    margin-left: 800px;
+    font-size: 25px;
+    margin-top: 50px;
+    gap: 80px;
+    display: flex;
+}
+
+.nou{
+    color: white;
+    text-decoration: none;
+}
+.nou:hover{
+    border-bottom: 2px solid violet;
+    color: violet;
+    margin-bottom: 25px;
+}
+
+.text{
+    color: white;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-right: 370px;
+    
+    font-size: 30px;
+}
+
+
+.txtbox{
+
+    display: grid;
+    width: 600px;
+    
+    
+}
+
+.textboxarea{
+    
+    padding: 0px;
+  
+    height: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    justify-items: center;
+
+   
+
+    
+    
+
+}
+
+.contactinfo{
+   
+    font-size: 20px;
+    padding: auto;
+    color: white;
+}
+.container1{
+    padding-top:85px ;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+
+  
+    
+}
+.container2{
+    display: grid;
+
+    width: 600px;
+ 
+    
+}
+
+.messages{
+    
+    display: grid;
+    width: 550px;
+  
+    height: 120px;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+    
+    
+    
+    
+}
+
+::placeholder { 
+    color: white; 
+    opacity: 1; 
+}
+
+.txtbox1{
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    height: 40px;
+    border-radius: 11px;
+    padding-left: 25px;
+    margin-top: 1px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255, 0.2);
+    color: #fff;
+    border-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;  
+    
+
+}
+
+.buttons{
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px ;
+    border-radius: 20px; 
+}
+
+.personalinfo{
+
+    display: grid;
+    
+}
+
+.message{
+
+    width: 585px;
+    padding-left: 15px;
+    
+    
+}
+
+.buttons{
+    background-color: #CC5152;
+    border-radius: 20px;
+    width: 170px;
+
+    color: white;
+    text-align: center;
+    outline: none;
+    border-style: none;
+    text-decoration: none;
+    box-shadow: 0 0 10px 0 #CC5152;
+}
